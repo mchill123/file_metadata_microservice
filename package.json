@@ -1,0 +1,25 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "Returns size of specified file",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchill123/file_metadata_microservice.git"
+  },
+  "author": "Mckinley Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchill123/file_metadata_microservice/issues"
+  },
+  "homepage": "https://github.com/mchill123/file_metadata_microservice#readme"
+}
