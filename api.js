@@ -1,6 +1,6 @@
 var path = require('path');
 var multer = require('multer');
-var upload = multer({dest: 'uploads/'})
+var upload = multer({dest: 'uploads/'});
 
 module.exports = function(app){
     app.all('/', function(req,res){
@@ -9,7 +9,7 @@ module.exports = function(app){
     });
     
     app.all('/get-file-size', upload.single('file'), function(req, res){
-          res.send(req)
-        })
+          console.log(req.body);
+        });
    
 };
