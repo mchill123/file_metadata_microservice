@@ -9,11 +9,7 @@ module.exports = function(app){
     });
     
     app.all('/get-file-size', upload.single('file'), function(req, res){
-        upload(req, res, function(err){
-          if(err){
-              console.log(err)
-          }  
           res.send(req)
         })
-    })
+   
 };
